@@ -1,0 +1,12 @@
+Added Component: Designator=D1(LED-0)
+Added Component: Designator=R7(AXIAL-0.3)
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=Net_3 Pin=R7-2
+Change Net Name : Old Net Name=Net_3 New Net Name=Net_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R7-1
+Added Net: Name=NetD1_1
+Added Member To Class: ClassName=Sheet2 Member=Component D1 LED0
+Added Member To Class: ClassName=Sheet2 Member=Component R7 Res1
+Added Member To Class: ClassName=Sheet2 Member=Component  Header 2
+Added Room: Name=Sheet2

@@ -1,0 +1,120 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\hp\Desktop\dog\New folder\PCB_Project\PCB1.PcbDoc
+Date     : 5/16/2024
+Time     : 8:57:13 PM
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Via (1425,4628.425mil) And Pad P4-4 (1655,4630mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U1-1 (1955,3960mil) And Pad C1-2 (1998.425,3705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C1-2 (1998.425,3705mil) And Pad LS1-2 (2505,3700.434mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P4-4 (1655,4630mil) And Pad U1-1 (1955,3960mil)
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad R6-1 (1655,3695mil) And Pad C1-1 (1801.575,3705mil)
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad U1-6 (1630,4160mil) And Pad U1-2 (1955,4060mil)
+   Violation between Un-Routed Net Constraint: Net NetC1_1 Between Pad U1-6 (1630,4160mil) And Pad R6-1 (1655,3695mil)
+   Violation between Un-Routed Net Constraint: Net NetC2_2 Between Pad C2-2 (1425,4431.575mil) And Pad U1-5 (1630,4260mil)
+   Violation between Un-Routed Net Constraint: Net NetC3_1 Between Pad U1-3 (1955,4160mil) And Pad C3-1 (2125,4296.575mil)
+   Violation between Un-Routed Net Constraint: Net NetC3_2 Between Pad C3-2 (2125,4493.425mil) And Pad Q1-2 (2335,4705mil)
+   Violation between Un-Routed Net Constraint: Net NetLS1_1 Between Pad LS1-1 (2505,4165mil) And Pad R5-1 (2570,4380mil)
+   Violation between Un-Routed Net Constraint: Net NetQ1_1 Between Pad Q1-1 (2385,4705mil) And Pad R5-2 (2570,4680mil)
+   Violation between Un-Routed Net Constraint: Net NetR3_1 Between Pad R3-1 (1295,4270mil) And Pad R4-2 (1420,4150mil)
+   Violation between Un-Routed Net Constraint: Net NetR3_1 Between Pad R4-2 (1420,4150mil) And Pad U1-7 (1630,4060mil)
+   Violation between Un-Routed Net Constraint: Net NetR4_1 Between Pad R6-2 (1355,3695mil) And Pad R4-1 (1420,3850mil)
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad R3-2 (1295,3970mil) And Pad U1-8 (1630,3960mil)
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad U1-4 (1955,4260mil) And Pad P4-1 (1955,4630mil)
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad P4-1 (1955,4630mil) And Pad Q1-3 (2285,4705mil)
+   Violation between Un-Routed Net Constraint: Net VCC Between Pad U1-8 (1630,3960mil) And Pad U1-4 (1955,4260mil)
+Rule Violations :19
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+   Violation between Via (1425mil,4628.425mil) Top Layer to Bottom Layer and 
+                     Pad C2-1(1425mil,4628.425mil)  Multi-Layer
+Rule Violations :1
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Pad Q1-2(2335mil,4705mil)  Multi-Layer and 
+                     Pad Q1-1(2385mil,4705mil)  Multi-Layer
+   Violation between Pad Q1-3(2285mil,4705mil)  Multi-Layer and 
+                     Pad Q1-2(2335mil,4705mil)  Multi-Layer
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Pad LS1-1(2505mil,4165mil)  Top Layer and 
+                     Arc (2421mil,4228mil)  Top Overlay
+   Violation between Track (2570mil,4421mil)(2570mil,4430mil)  Top Overlay and 
+                     Pad R5-1(2570mil,4380mil)  Multi-Layer
+   Violation between Track (2570mil,4630mil)(2570mil,4639mil)  Top Overlay and 
+                     Pad R5-2(2570mil,4680mil)  Multi-Layer
+   Violation between Track (1605mil,3695mil)(1614mil,3695mil)  Top Overlay and 
+                     Pad R6-1(1655mil,3695mil)  Multi-Layer
+   Violation between Track (1396mil,3695mil)(1405mil,3695mil)  Top Overlay and 
+                     Pad R6-2(1355mil,3695mil)  Multi-Layer
+   Violation between Track (1420mil,3891mil)(1420mil,3900mil)  Top Overlay and 
+                     Pad R4-1(1420mil,3850mil)  Multi-Layer
+   Violation between Text "R6" (1333mil,3759mil)  Top Overlay and 
+                     Pad R4-1(1420mil,3850mil)  Multi-Layer
+   Violation between Track (1420mil,4100mil)(1420mil,4109mil)  Top Overlay and 
+                     Pad R4-2(1420mil,4150mil)  Multi-Layer
+   Violation between Track (1925mil,3905mil)(1925mil,4305mil)  Top Overlay and 
+                     Pad U1-4(1955mil,4260mil)  Multi-Layer
+   Violation between Track (1925mil,3905mil)(1925mil,4305mil)  Top Overlay and 
+                     Pad U1-3(1955mil,4160mil)  Multi-Layer
+   Violation between Track (1925mil,3905mil)(1925mil,4305mil)  Top Overlay and 
+                     Pad U1-2(1955mil,4060mil)  Multi-Layer
+   Violation between Track (1925mil,3905mil)(1925mil,4305mil)  Top Overlay and 
+                     Pad U1-1(1955mil,3960mil)  Multi-Layer
+   Violation between Track (1660mil,3905mil)(1660mil,4305mil)  Top Overlay and 
+                     Pad U1-5(1630mil,4260mil)  Multi-Layer
+   Violation between Track (1660mil,3905mil)(1660mil,4305mil)  Top Overlay and 
+                     Pad U1-6(1630mil,4160mil)  Multi-Layer
+   Violation between Track (1660mil,3905mil)(1660mil,4305mil)  Top Overlay and 
+                     Pad U1-7(1630mil,4060mil)  Multi-Layer
+   Violation between Track (1660mil,3905mil)(1660mil,4305mil)  Top Overlay and 
+                     Pad U1-8(1630mil,3960mil)  Multi-Layer
+   Violation between Track (1295mil,4220mil)(1295mil,4229mil)  Top Overlay and 
+                     Pad R3-1(1295mil,4270mil)  Multi-Layer
+   Violation between Track (1295mil,4011mil)(1295mil,4020mil)  Top Overlay and 
+                     Pad R3-2(1295mil,3970mil)  Multi-Layer
+   Violation between Track (2371.142mil,3680.748mil)(2434.134mil,3680.748mil)  Top Overlay and 
+                     Pad LS1-2(2505mil,3700.434mil)  Top Layer
+   Violation between Track (2575.866mil,3680.748mil)(2756.968mil,3680.748mil)  Top Overlay and 
+                     Pad LS1-2(2505mil,3700.434mil)  Top Layer
+   Violation between Track (2253.032mil,4184.686mil)(2434.134mil,4184.686mil)  Top Overlay and 
+                     Pad LS1-1(2505mil,4165mil)  Top Layer
+   Violation between Track (2575.866mil,4184.686mil)(2756.968mil,4184.686mil)  Top Overlay and 
+                     Pad LS1-1(2505mil,4165mil)  Top Layer
+Rule Violations :22
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Via (1425mil,4628.425mil) Top Layer to Bottom Layer
+Rule Violations :1
+
+Processing Rule : Rule
+Rule Violations :0
+
+
+Violations Detected : 45
+Time Elapsed        : 00:00:00
